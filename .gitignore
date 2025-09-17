@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data / models / mlruns
+data/*
+!.gitkeep
+models/*
+!.gitkeep
+mlruns/
+mlflow.db
+
+# IDEs
+.vscode/
+.idea/
